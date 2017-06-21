@@ -1,0 +1,1 @@
+docker run -d -v $(pwd):/usr/src/app/ --name electricity_bill -p 4556:8888 electricity_bill:1.1
